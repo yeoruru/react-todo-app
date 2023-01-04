@@ -1,0 +1,23 @@
+Drag and Drop 기능 추가하기
+
+1. react-beautiful-dnd 리액트 뷰리풀디엔디 라는 모듈을 이용해 구현가능하다
+
+* 여기 링크는 내꺼 작업해보고도 어려우면 확인해보기
+https://www.npmjs.com/package/react-beautiful-dnd -> 예시 url
+https://kasterra.github.io/react-beautiful-dnd-1/ -> 설명 참고
+https://velog.io/@yjs3819/react-beautiful-dnd -> 설명 참고
+https://github.com/atlassian/react-beautiful-dnd/blob/master/docs/api/droppable.md -> 설명참고
+
+2. 필요한 모듈을 터미널에서 설치한다
+npm install react-beautiful-dnd --save
+
+3. Lists.js 파일 열어서 시작
+너무 어려울까봐 에러나도 여러 단계로 나눴음 
+수업할때 9-1과 9-2는 파일 한개로 이어서 하는것이 좋음
+
+App-9-1. Lists 파일 -> Drag and Drop 기능을 쓰기 위한 틀 잡기
+App-9-2. Lists 파일 -> provided 함수를 이용하여 드래그 / 드랍 기능만 적용 (드래그만 되고 실제로 바뀌게 저장은 안된다)
+App-9-3. Lists 파일 -> Drag and Drop 기능 완료 전 css 정리 (Lists.js / Form.js / app.css 파일 모두 사용)
+App-9-4. Lists 파일 -> 드래그 할때 스타일 변경과 드래그를 한 데이터 위치 저장하기
+
+
